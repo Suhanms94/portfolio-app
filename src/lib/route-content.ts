@@ -39,11 +39,6 @@ export const galleryItems = [
     image: "/chess.jpeg",
   },
   {
-    title: "Night Gaze",
-    format: "Portrait",
-    image: "/test.jpg.jpeg",
-  },
-  {
     title: "Crosswalk Story",
     format: "Street",
     image: "/street2.jpeg",

@@ -7,15 +7,15 @@ export const heroStatement = {
 
 export const featuredVisuals = [
   {
-    title: "Blue Hour Portrait",
-    film: "Digital Portrait Study",
-    image: "/chess.jpeg",
+    title: "Chrome Echo",
+    film: "Vintage Color Study",
+    image: "/car.jpeg",
     tone: "color",
   },
   {
-    title: "Night Gaze",
-    film: "Low Light Portrait",
-    image: "/car2.jpeg",
+    title: "Soft Focus Face",
+    film: "Portrait Composition",
+    image: "/asthetic1.jpeg",
     tone: "color",
   },
 ];
@@ -26,8 +26,8 @@ export const galleryFlow = [
     items: [
       {
         title: "Fragments of Silence",
-        film: "Cinematic Grade Study",
-        image: "/asthetic2.jpeg",
+        film: "Street Scene Narrative",
+        image: "/street1.jpeg",
       },
     ],
   },
@@ -35,14 +35,14 @@ export const galleryFlow = [
     layout: "split",
     items: [
       {
-        title: "Created by Vinay",
-        film: "Muted Texture Composition",
-        image: "/asthetic1.jpeg",
+        title: "Rear Frequency",
+        film: "Aesthetic Composition",
+        image: "/asthetic2.jpeg",
       },
       {
         title: "Quiet Move",
-        film: "Ambient Story Frame",
-        image: "/car1.jpeg",
+        film: "Cinematic Frame",
+        image: "/cimematic1.jpeg",
       },
     ],
   },
