@@ -11,6 +11,7 @@ interface PremiumImageProps {
   priority?: boolean;
   sizes?: string;
   fill?: boolean;
+  quality?: number;
 }
 
 export function PremiumImage({ 
@@ -19,7 +20,8 @@ export function PremiumImage({
   className, 
   priority = false,
   sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px",
-  fill = true
+  fill = true,
+  quality = 100
 }: PremiumImageProps) {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -30,7 +32,7 @@ export function PremiumImage({
         alt={alt}
         fill={fill}
         sizes={sizes}
-        quality={82}
+        quality={quality}
         priority={priority}
         className={cn(
           "transition-all duration-[600ms] ease-out hover:scale-[1.03]",

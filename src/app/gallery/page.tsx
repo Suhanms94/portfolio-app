@@ -87,6 +87,7 @@ export default function GalleryPage() {
                   src={item.image}
                   alt={item.title}
                   fill
+                  quality={100}
                   className="eth-gallery-photo object-cover"
                   sizes="(max-width: 900px) 100vw, 33vw"
                 />
