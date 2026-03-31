@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.next/
+
+# Allow all crawlers to access sitemap
+Sitemap: https://vinay-filmlab.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# User-agent specific rules
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
