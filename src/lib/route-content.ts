@@ -1,4 +1,5 @@
 export const galleryFilters = [
+  "All",
   "Aesthetic",
   "Portrait",
   "Vintage",

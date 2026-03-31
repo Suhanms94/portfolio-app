@@ -10,7 +10,9 @@ export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState(galleryFilters[0]);
   const [selectedItem, setSelectedItem] = useState<(typeof galleryItems)[number] | null>(null);
 
-  const filteredItems = galleryItems.filter((item) => item.format === activeFilter);
+  const filteredItems = activeFilter === "All" 
+    ? galleryItems 
+    : galleryItems.filter((item) => item.format === activeFilter);
 
   useEffect(() => {
     if (!selectedItem) {
