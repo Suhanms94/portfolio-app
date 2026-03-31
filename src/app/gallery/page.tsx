@@ -89,7 +89,8 @@ export default function GalleryPage() {
                   fill
                   quality={100}
                   className="eth-gallery-photo object-cover"
-                  sizes="(max-width: 900px) 100vw, 33vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+                  priority={false}
                 />
                 <span className="eth-gallery-badge">View</span>
               </button>
