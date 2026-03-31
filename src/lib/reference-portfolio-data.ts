@@ -7,15 +7,15 @@ export const heroStatement = {
 
 export const featuredVisuals = [
   {
-    title: "Chrome Echo",
-    film: "Vintage Color Study",
-    image: "/car.jpeg",
+    title: "Afterlight Drive",
+    film: "Cinematic Grade Master",
+    image: "/cimematic2.jpeg",
     tone: "color",
   },
   {
-    title: "Soft Focus Face",
-    film: "Portrait Composition",
-    image: "/asthetic1.jpeg",
+    title: "Passing Light",
+    film: "Street Scene Excellence",
+    image: "/street3.jpeg",
     tone: "color",
   },
 ];
@@ -25,9 +25,9 @@ export const galleryFlow = [
     layout: "full",
     items: [
       {
-        title: "Fragments of Silence",
-        film: "Street Scene Narrative",
-        image: "/street1.jpeg",
+        title: "Midnight Sequence",
+        film: "Cinematic Masterpiece",
+        image: "/cimematic3.jpeg",
       },
     ],
   },
@@ -35,14 +35,14 @@ export const galleryFlow = [
     layout: "split",
     items: [
       {
-        title: "Rear Frequency",
-        film: "Aesthetic Composition",
-        image: "/asthetic2.jpeg",
+        title: "Created by Vinay",
+        film: "Aesthetic Perfection",
+        image: "/asthetic3.jpeg",
       },
       {
-        title: "Quiet Move",
-        film: "Cinematic Frame",
-        image: "/cimematic1.jpeg",
+        title: "Crosswalk Story",
+        film: "Street Photography Grade",
+        image: "/street2.jpeg",
       },
     ],
   },
